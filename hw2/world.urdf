@@ -3,7 +3,7 @@
 <world name="demo_world" gravity="0.0 0.0 -9.81">
 
 	<robot name="PANDA">
-		<model dir="./resources" path="panda_arm_simulation.urdf" name="panda" />
+		<model dir="./resources" path="panda_arm.urdf" name="panda" />
 	</robot>
 
 	<light name="light1" type="directional">
