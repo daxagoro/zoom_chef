@@ -1,13 +1,14 @@
+#include <GL/glew.h>
 #include "Sai2Model.h"
 #include "Sai2Graphics.h"
 #include "Sai2Simulation.h"
-#include "uiforce/UIForceWidget.h"
 #include <dynamics3d.h>
 #include "redis/RedisClient.h"
 #include "timer/LoopTimer.h"
 
-#include <GL/glew.h>
 #include <GLFW/glfw3.h> //must be loaded after loading opengl/glew
+
+#include "uiforce/UIForceWidget.h"
 
 #include <iostream>
 #include <string>

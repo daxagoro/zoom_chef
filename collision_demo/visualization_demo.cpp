@@ -1,10 +1,10 @@
 // example visulaization program
 
+#include <GL/glew.h>
 #include "Sai2Model.h"
 #include "Sai2Graphics.h"
 #include "redis/RedisClient.h"
 
-#include <GL/glew.h>
 #include <GLFW/glfw3.h> //must be loaded after loading opengl/glew
 
 using namespace std;
