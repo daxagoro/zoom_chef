@@ -2,8 +2,8 @@
 
 <world name="demo_world" gravity="0.0 0.0 -9.81">
 
-	<robot name="panda">
-		<model dir="./resources" path="panda_arm.urdf" name="panda" />
+	<robot name="panda_collision">
+		<model dir="./resources" path="panda_collision.urdf" name="panda_collision" />
 		<origin xyz="0.0 0.3 0.0" rpy="0 0 0" />
 	</robot>
 

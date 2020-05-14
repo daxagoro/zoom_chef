@@ -25,7 +25,7 @@ double sat(double x) {
 #define RAD(deg) ((double)(deg) * M_PI / 180.0)
 
 // Location of URDF files specifying world and robot information
-const string robot_file = "./resources/panda_arm.urdf";
+const string robot_file = "./resources/panda_collision.urdf";
 
 // Redis is just a key value store, publish/subscribe is also possible
 // The visualizer and simulator will have keys like "cs225a::robot::{ROBOTNAME}::sensors::q"
